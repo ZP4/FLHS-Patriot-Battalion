@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/Alpha"
+            android:icon="@drawable/ic_action_a"
+            android:title="Alpha" />
+        <item
+            android:id="@+id/Bravo"
+            android:icon="@drawable/ic_action_b"
+            android:title="Bravo" />
+        <item
+            android:id="@+id/Charlie"
+            android:icon="@drawable/ic_action_c"
+            android:title="Charlie" />
+        <item
+            android:id="@+id/Delta"
+            android:icon="@drawable/ic_action_d"
+            android:title="Delta" />
+        <item
+            android:id="@+id/Echo"
+            android:icon="@drawable/ic_action_e"
+            android:title="Echo" />
+    </group>
+
+    <item android:title="Knowledge">
+        <menu>
+            <item
+                android:id="@+id/Knowledge_grooming"
+                android:icon="@drawable/ic_action_content_content_cut"
+                android:title="Grooming" />
+            <item
+                android:id="@+id/Knowledge_sheet"
+                android:icon="@drawable/ic_action_knowledge"
+                android:title="Knowledge Sheet" />
+            <item
+                android:id="@+id/Knowledge_Ranks_Ribbons"
+                android:icon="@drawable/ic_action_ranks"
+                android:title="Ranks and Ribbons" />
+            <item
+                android:id="@+id/Knowledge_Uniform"
+                android:icon="@drawable/ic_action_uniform"
+                android:title="Uniform" />
+
+        </menu>
+    </item>
+
+</menu>

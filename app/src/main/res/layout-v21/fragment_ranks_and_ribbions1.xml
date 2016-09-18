@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="drd.flhspatriotbattalion.CentralFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/ranks_and_ribbions"
+                android:id="@+id/ranksandribbions"
+                android:background="@color/colorAccent"
+
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:targetApi="jelly_bean_mr1"
+                android:elevation="2dp"
+                />
+            <Space
+                android:id="@+id/space3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ranksandribbions"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_below="@+id/space3"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/Ranks"
+                android:layout_gravity="center"
+                android:src="@drawable/ranks"
+                android:contentDescription="@string/ranks" />
+            <Space
+                android:id="@+id/space4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/Ranks"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_below="@+id/space4"
+                android:layout_width="wrap_content"
+                android:layout_height="800dp"
+                android:id="@+id/Ribbions"
+                android:layout_gravity="center"
+                android:src="@drawable/ribbions"
+                android:contentDescription="@string/ribbons" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

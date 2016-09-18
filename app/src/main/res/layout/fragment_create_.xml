@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_Fragment"
+    android:background="@color/colorPrimarySuperLight">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+       android:id="@+id/layoutFrame">
+
+        <TextView
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:padding="10sp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/enter_text"
+            android:textSize="40sp"
+            android:id="@+id/Instructions"
+            android:layout_alignTop="@+id/Space6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Space
+            android:background="@color/colorPrimaryLight"
+            android:id="@+id/Space6"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="88dp" />
+
+        <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentLight"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/ContentInput"
+            android:outlineProvider="background"
+
+
+            android:layout_below="@+id/Space6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Space
+            android:layout_below="@id/ContentInput"
+            android:background="@color/colorPrimaryLight"
+            android:id="@+id/Space5"
+            android:layout_width="match_parent"
+            android:layout_height="350sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="88dp" />
+        <EditText
+            android:id="@+id/password"
+            android:textSize="15sp"
+            android:maxLength="4"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/send"
+            android:layout_toStartOf="@+id/send"
+            android:inputType="text" />
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/enter_password"
+            android:id="@+id/textView3"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/password"
+            android:layout_toStartOf="@+id/password"
+
+            />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:text="@string/send_button"
+            android:id="@+id/send"
+            android:background="@color/colorAccent"
+
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:layout_toStartOf="@+id/imageView2" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="35sp"
+            android:id="@+id/imageView2"
+            android:contentDescription="@string/send_button"
+
+            android:src="@drawable/ic_menu_send"
+            android:layout_gravity="right"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorAccent" />
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

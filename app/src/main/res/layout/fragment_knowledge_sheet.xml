@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="drd.flhspatriotbattalion.CentralFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Knowledge Sheet 2015-2016"
+                android:id="@+id/Knowledge_sheet_header"
+                android:background="@color/colorAccent"
+
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:targetApi="jelly_bean_mr1"
+                android:elevation="2dp"
+                />
+            <Space
+                android:id="@+id/space3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/Knowledge_sheet_header"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/KnowledgeSheet"
+                android:id="@+id/males"
+
+                android:background="@color/colorPrimarySuperLight"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/space3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:elevation="2dp"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">FLHS</string>
+    <string name="header">Francis Lewis Patroit Battalion</string>
+    <string name="defaultText">No Connection :( </string>
+    <string name="context_action">context_action</string>
+    <string name="title_activity_navigationdrawer">navigationdrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav2">Nav2</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="enter_password">Enter Password:</string>
+    <string name="enter_text">Write a Post</string>
+    <string name="send">Send</string>
+    <string name="send_button">Send</string>
+    <string name="alpha_first_platoon">Alpha First Platoon</string>
+    <string name="grooming_males_Text">  (a) The hair on top of the head must be neatly groomed. The length and bulk of the hair may not be excessive or present a ragged, unkempt, or extreme appearance. The hair must present a tapered appearance. When the hair is combed, it will not fall over the ears or eyebrows, or touch the collar, except for the closely cut hair at the back of the neck. \n \n (b) Males will keep their face clean-shaven when in uniform or in civilian clothes. \n \n (c) Fingernails. All personnel will keep fingernails clean and neatly trimmed. Males will keep nails trimmed so as not toextend beyond the fingertip.
+             \n \n (d) Any kind of jewelry including any body piercings, earrings, nose rings, etc are not authorized when wearing uniform. No earrings are allowed to be covered with a band-aid. \n \n (e) Cadets are allowed to have wristwatches
+</string>
+    <string name="grooming_females_Text">    (a) Females will ensure their hair is neatly groomed, that the length and bulk of the hair are not excessive, and that the hair does not present a ragged, unkempt, or extreme appearance. Likewise, trendy styles that result in shaved portions of the scalp (other than the neckline) or designs cut into the hair are prohibited. Long hair that falls naturally below the bottom edge of the collar, to include braids, will be neatly and inconspicuously fastened or pinned, so no free-hanging hair is visible. This includes styles worn with the physical fitness uniform. \n \n (b)Females will ensure that hairstyles do not interfere with proper wear of military headgear. When headgear is worn, the hair will not extend below the bottom edge of the front of the headgear, nor will it extend below the bottom edge of the collar. \n \n (c)Hair-holding devices are authorized only for the purpose of securing the hair. Cadets will not place hair-holding devices in the hair for decorative purposes. All hair-holding devices must be plain and of a color as close to the cadet’s hair as is possible. Authorized devices include, but are not limited to, small, plain scrunchies (elastic hair bands covered with material), barrettes, combs, pins, clips, rubber bands, and hair bands. Devices that are conspicuous, excessive, or decorative   are prohibited. Some examples of prohibited devices include, but are not limited to, large, lacy scrunchies; beads, bows, or claw clips; clips, pins, or barrettes with butterflies, flowers, sparkles, gems, or scalloped edges; and bows made from hairpieces.
+        \n \n (d) Females will not exceed a nail length of 1⁄4 inch, as measured from the tip of the finger. \n \n (e) Earrings may be screw-on, clip-on, or post-type earrings, in gold, silver, white pearl, or diamond. The earrings will not exceed 6 mm or 1⁄4 inch in diameter, and they must be unadorned and spherical. When worn, the earrings will fit snugly against the ear. Females may wear earrings only as a matched pair, with only one earring per ear lobe. No females are allowed to cover an earring with a band-aid. \n \n (f) Cadets are allowed to have wristwatches  </string>
+    <string name="KnowledgeSheet">PATRIOT BATTALIONKNOWLEDGE SHEET 2015-2016 Senior Army Instructor/Army Instructors SAI: Lieutenant Colonel Lahood AI: Command Sergeant Major Cabrera AI: Sergeant Major Polanco AI: First Sergeant Simmons AI: Master Sergeant Badia AI: Sergeant First Class Madison AI: Sergeant First Class Dash Army Chain of Command: Commander In Chief: Honorable Barack Obama Secretary of Defense: Honorable Ashton Carter Secretary of the Army: Honorable John McHugh Chairman of Joint Chief of Staff: General Dunford ​ Chief of Staff of the Army: General Mark A. Milley Sergeant Major of the Army: Sergeant Major Daniel A. Dailey Commander of TRADOC: General David Perkins Command Sergeant Major of TRADOC: Command Sergeant Major David S. Davenport Sr. Commanding General of Cadet Command: Major General Christopher Hughes Command Sergeant Major of Cadet Command: Command Sergeant Major Gabriel Arnold Director of Army JROTC: Colonel Thomas G. Bell Commander of 2nd Brigade: Colonel Kenneth Mintz Command Sergeant Major of 2nd Brigade: Command Sergeant Major Bryon C. Larson Basic Knowledge What does JROTC stand for? JROTC stands for Junior Reserve Officers’ Training Corps. What does LET stand for? LET stands for Leadership, Education, Training. What does JCLC stand for? JCLC stands for JROTC Cadet Leadership Challenge. What does SAI stand for? SAI stands for Senior Army Instructor. What does AI stand for? AI stands for Army Instructor. What is the mission of JROTC? The mission of JROTC is to motivate young people to become better citizens. What is the key to success in JROTC? The key to success in JROTC is teamwork. What are the three levels of distinction that JROTC units can earn? The three levels of distinction that JROTC units can earn are merit unit, honor unit, and honor unit with distinction. Leadership What is the definition of leadership? Leadership is the process of influencing others to accomplish a mission by providing purpose, direction, and motivation. What are the three leadership styles? Explain each. Delegating: Giving decision making authority to subordinates. Directing: Instructing subordinates. Participating: Involving subordinates in the decision making process. What are the seven army values? L- Loyalty D- Duty R- Respect S- Selfless Service H- Honor I- Integrity P- Personal Courage Define teamwork. Teamwork is the cooperative effort of a group of people working together to achieve a common goal. Drill Ceremony What are the 2 parts of a command? The Preparatory command the Command of Execution. What foot do you call the command rear march on? The Right Foot On which foot do you give the command halt? Either Foot. What is the normal cadence/rate of quick time? 120 steps per minute. What is the rate of “double time”? 180 steps per minute. Map Reading How do you read a military map? From Right Up What are the 5 basic colors on a military map and what do they represent? Blue- Water Green- Vegetation Brown- Contour lines/Elevation relief Black- Man made objects Red- Highly populated areas major roads Name the 5 major terrain features on a military map? Hill, Saddle, Valley, Ridge, Depression What are the 3 types of north’s on a military map? True, Grid, Magnetic First Aid Health Define First Aid. First Aid is the immediate care given to an injured or ill victim before professional medical help arrives. What are the 4 life saving steps? Check for consciousness, check for breathing and heartbeat, check for bleeding, and check for shock. Government What are the 3 branches of government and what do they do? Legislative: Makes the law. Judicial: Interprets the law. Executive: Enforces and carries out the law. American History Citizenship Who wrote the star spangled banner? Francis Scott Key What do the colors on the United States flag represent? Red- Valor Blue- Justice White- Purity What do the 13 stripes on the United States flag represent? The original 13 colonies. What are the 3 types of American flags and which is the largest? Post, Storm, Garrison. Garrison is the largest. What is the UCMJ? Uniform Code of Military Justice The Cadet Creed I am an Army Junior ROTC Cadet. I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets. I am loyal and patriotic. I am the future of the United States of America. I do not lie, cheat or steal and will always be accountable for my actions and deeds. I will always practice good citizenship and patriotism. I will work hard to improve my mind and strengthen my body. I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life. May God grant me the strength to always live by this creed.</string>
+    <string name="ranks_and_ribbions">Ranks and Ribbions</string>
+    <string name="ranks">Ranks</string>
+    <string name="ribbons">Ribbons</string>
+    <string name="uniform">uniform</string>
+    <string name="uniformheader">Uniform</string>
+</resources>

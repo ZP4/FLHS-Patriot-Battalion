@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="drd.flhspatriotbattalion.Help">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Help and Options"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="For any errors please contact S6 in room 205"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/space4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select what you would like to be notified for: "
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="10dp"/>
+
+
+    <Switch
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Announcements"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/textView4"
+
+        android:paddingBottom="10dp"/>
+    <Switch
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drill Team"
+        android:id="@+id/switch2"
+        android:layout_below="@+id/switch1"
+
+        android:paddingBottom="10dp"/>
+    <Switch
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drum corps"
+        android:id="@+id/switch3"
+        android:layout_below="@+id/switch2"
+
+        android:paddingBottom="10dp"/>
+    <Switch
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Honor Guard"
+        android:id="@+id/switch4"
+        android:layout_below="@+id/switch3"
+
+        android:paddingBottom="10dp"/>
+    <Switch
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raiders"
+        android:id="@+id/switch5"
+        android:layout_below="@+id/switch4"
+
+        android:paddingBottom="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="drd.flhspatriotbattalion.CentralFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/header"
+                    android:id="@+id/Header"
+                    android:background="@color/colorPrimaryDark"
+                    android:height="100sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:targetApi="jelly_bean_mr1"
+                    android:elevation="2dp"
+                    />
+                <Space
+                    android:id="@+id/space"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/Header"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/defaultText"
+                    android:id="@+id/wotd"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryLight"
+                    android:textSize="30sp"
+                    android:layout_below="@+id/space"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:elevation="2dp"
+                    />
+                <Space
+                    android:id="@+id/space2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/wotd"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/defaultText"
+                    android:id="@+id/mainContent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimarySuperLight"
+                    android:layout_below="@+id/space2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:elevation="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:elevation="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_action_add" />
+
+</FrameLayout>
