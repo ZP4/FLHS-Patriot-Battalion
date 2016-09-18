@@ -169,10 +169,7 @@ public InputMethodManager mgr;
                         });
 
                 }
-                    if (isCorrect == false){
-                        Toast.makeText(getActivity(),"Incorrect Password :(",Toast.LENGTH_SHORT).show();
-
-                    }
+                 
                 }
 
 
