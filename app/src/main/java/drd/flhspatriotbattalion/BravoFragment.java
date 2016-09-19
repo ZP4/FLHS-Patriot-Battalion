@@ -26,7 +26,7 @@ public class BravoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_bravo, container, false);
+        View view =  inflater.inflate(R.layout.fragment_platoonpicker, container, false);
         Button a1, a2;
         a1 = (Button) view.findViewById(R.id.B1button);
         a2 = (Button) view.findViewById(R.id.B2button);
@@ -43,11 +43,11 @@ public class BravoFragment extends Fragment {
         a2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Alpha2 alpha2 = new Alpha2();
+                Bravo2 bravo2  = new Bravo2();
                 FragmentManager fragmentManager =  getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.Relative_Layout_For_Fragments,
-                        alpha2,
-                        alpha2.getTag()).commit();
+                        bravo2,
+                        bravo2.getTag()).commit();
             }
         });
 
