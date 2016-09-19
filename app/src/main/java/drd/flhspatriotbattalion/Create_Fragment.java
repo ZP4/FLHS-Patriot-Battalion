@@ -149,7 +149,18 @@ public InputMethodManager mgr;
                                                     Intent i = new Intent(getActivity(), MainActivity.class);
                                                     startActivity(i);
 
-                                                }
+                                                }else if (string.equals("f1")) {
+                                                    database.getReference().child("Foxtrot").child("one").setValue(context);
+                                                    Toast.makeText(getActivity(), "Sent", Toast.LENGTH_SHORT).show();
+                                                    Intent i = new Intent(getActivity(), MainActivity.class);
+                                                    startActivity(i);
+
+                                                }else if (string.equals("f2")) {
+                                                    database.getReference().child("Foxtrot").child("two").setValue(context);
+                                                    Toast.makeText(getActivity(), "Sent", Toast.LENGTH_SHORT).show();
+                                                    Intent i = new Intent(getActivity(), MainActivity.class);
+                                                    startActivity(i);
+                                            }
 
 
                                             }
