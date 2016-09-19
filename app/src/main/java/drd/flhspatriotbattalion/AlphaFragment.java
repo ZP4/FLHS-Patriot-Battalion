@@ -25,10 +25,10 @@ public class AlphaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-      View view = inflater.inflate(R.layout.fragment_alpha, container, false);
+      View view = inflater.inflate(R.layout.fragment_platoonpicker, container, false);
         Button a1, a2;
-        a1 = (Button) view.findViewById(R.id.A1button);
-        a2 = (Button) view.findViewById(R.id.A2button);
+        a1 = (Button) view.findViewById(R.id.B1button);
+        a2 = (Button) view.findViewById(R.id.B2button);
         a1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,3 +74,4 @@ public class AlphaFragment extends Fragment {
     }
 
 }
+
