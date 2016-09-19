@@ -25,9 +25,12 @@ public class Bravo1 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_bravo1, container, false);
-        final TextView content;
+        View view = inflater.inflate(R.layout.fragment_platoon, container, false);
+        final TextView content, title;
+        final String platoonName = "Bravo First Platoon";
         content = (TextView) view.findViewById(R.id.Alpha1content);
+        title =(TextView) view.findViewById(R.id.Title);
+        title.setText(platoonName);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference().child("Bravo").child("one");
         myRef.addValueEventListener(new ValueEventListener() {
