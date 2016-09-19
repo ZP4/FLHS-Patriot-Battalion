@@ -31,9 +31,12 @@ public class Alpha2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-      View view =  inflater.inflate(R.layout.fragment_alpha2, container, false);
-        final TextView content;
-        content = (TextView) view.findViewById(R.id.Alpha2content);
+        View view = inflater.inflate(R.layout.fragment_platoon, container, false);
+        final TextView content, title;
+        final String platoonName = "Alpha Second Platoon";
+        content = (TextView) view.findViewById(R.id.Alpha1content);
+        title =(TextView) view.findViewById(R.id.Title);
+        title.setText(platoonName);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference().child("Alpha").child("two");
         myRef.addValueEventListener(new ValueEventListener() {
